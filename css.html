@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube</title>
+  <script src="https://kit.fontawesome.com/298f269de3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css.css">
+</head>
+
+<body>
+  <!--header-->
+  <header>
+    <div class="logo">
+      <i class="fab fa-youtube"></i>
+      <span class="title">Youtube</span>
+    </div>
+    <div class="icons">
+      <i class="fas fa-search"></i>
+      <i class="fas fa-ellipsis-v"></i>
+    </div>
+  </header>
+
+  <!--Video Player-->
+  <section class="player">
+    <video controls src="./Alone.mp4"></video>
+  </section>
+
+  <div class="infoAndUpNext">
+    <!--Video Info-->
+    <section class="info">
+      <!--Metadata-->
+      <div class="metadata">
+        <ul class="hashtage">
+          <li>#Steven</li>
+          <li>#Copy youtube</li>
+          <li>#HTML+CSS</li>
+        </ul>
+        <div class="titleAndButton">
+          <span class="title">
+            종속형 시트 또는 캐스케이딩 스타일 시트는 마크업 언어가 실제 표시되는 방법을 기술하는 언어로, HTML과 XHTML에 주로 쓰이며, XML에서도 사용할 수 있다. W3C의 표준이며, 레이아웃과
+            스타일을 정의할 때의 자유도가 높다.
+          </span>
+          <button class="moreBtn">
+            <i class="fas fa-caret-down"></i>
+          </button>
+        </div>
+        <div class="views">
+          <span class="views">
+            1M views 1 month age
+          </span>
+        </div>
+      </div>
+
+      <!-- Actions buttons -->
+      <ul class="actions">
+        <li>
+          <button>
+            <i class="active fas fa-thumbs-up"></i><span>1K</span>
+          </button>
+        </li>
+        <li>
+          <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+        </li>
+        <li>
+          <button><i class="fas fa-share"></i><span>Share</span></button>
+        </li>
+        <li>
+          <button><i class="fas fa-plus"></i><span>Save</span></button>
+        </li>
+        <li>
+          <button>
+            <i class="fab fa-font-awesome-flag"></i><span>Report</span>
+          </button>
+        </li>
+      </ul>
+
+      <!--Channel-->
+      <div class="channel">
+        <div class="metadata">
+          <img src="./image/polar.jpg" alt="">
+          <div class="info">
+            <span class="name">Steven</span>
+            <span class="subscribers">1M subscribers</span>
+          </div>
+        </div>
+        <button class="subscribe">subscribe</button>
+      </div>
+    </section>
+
+    <!--UpNext-->
+    <section class="upNext">
+      <span class="title">Up next</span>
+      <ul>
+        <li class="item">
+          <div class="img"><img width="200" height="200" src="./image/cat.jpg" alt=""></div>
+          <div class="info">
+            <span class="title">프론트엔드(HTML+CSS)를 사용하여 Youtube홈페이지 만들어보기</span>
+            <span class="name">Steven</span>
+            <span class="views">82K views</span>
+          </div>
+          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+        <li class="item">
+          <div class="img"><img width="200" height="200" src="./image/salt.png" alt=""></div>
+          <div class="info">
+            <span class="title">프론트엔드(HTML+CSS)를 사용하여 Youtube홈페이지 만들어보기</span>
+            <span class="name">Steven</span>
+            <span class="views">82K views</span>
+          </div>
+          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+      </ul>
+    </section>
+  </div>
+</body>
+
+</html>
